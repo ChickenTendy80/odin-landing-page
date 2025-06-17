@@ -128,11 +128,12 @@ ul {
     font-style: italic;
     font-weight: lighter;
     margin-bottom: 16px;
+    min-width: 900px;
 }
 
 .author{
     color: #1F2937;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     text-align: end;
 }
@@ -140,17 +141,18 @@ ul {
 /*Section four------------------------------------------------------------*/
 .four{
     padding: 64px;
+    display: flex;
     justify-content: center;
 }
 
 .container{
     background-color: #3882F6;
-    padding: 36px;
+    padding: 36px 96px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
-    max-width: 750px;
+    min-width: 800px;
+    border-radius: 8px;
 }
 
 .four .main-text{
