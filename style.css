@@ -1,5 +1,6 @@
 * {
     font-family: "Roboto", sans-serif
+    margin: 0px;
 }
 
 ul {
@@ -8,18 +9,12 @@ ul {
 }
 
 /*Header------------------------------------------------------------*/
-.header ul {
-    font-size: 18px;
-    gap: 16px;
-    color: #E5E7EB;
-}
-
 .header{
     background-color: #1F2937;
     padding:36px 240px;
     display: flex;
     align-items: center;
-    margin: 0px;
+    justify-content: space-around;
 }
 
 .header .logo{
@@ -27,12 +22,10 @@ ul {
     color: #F9FAF8;
 }
 
-.header .left{
-    justify-content: flex-start;
-}
-
-.header .right{
-    justify-content: flex-end;
+.header ul {
+    font-size: 18px;
+    gap: 16px;
+    color: #E5E7EB;
 }
 
 /*Section one------------------------------------------------------------*/
@@ -40,7 +33,7 @@ ul {
     background-color: #1F2937;
     padding: 80px 240px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     gap: 16px;
     margin:0px;
@@ -57,7 +50,7 @@ ul {
 .subtext{
     font-size: 18px;
     color: #E5E7EB;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     max-width: 360px;
 }
 
